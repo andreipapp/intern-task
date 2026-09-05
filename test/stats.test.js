@@ -3,7 +3,7 @@
 import { test } from 'node:test'
 import assert from 'node:assert/strict'
 
-import { eventsInRange } from '../src/stats.js'
+import { downloadsByGame, eventsInRange } from '../src/stats.js'
 import { isValidEvent } from '../src/validation.js'
 
 test('eventsInRange filters by type', () => {
@@ -21,4 +21,9 @@ test('invalid events should be refused with a 400', () => {
 test('date range should be inclusive not exclusive', () => {
   const rows = eventsInRange('2026-06-15', '2026-06-15', ['download'])
   assert.ok(rows.length > 0, 'expected some downloads on the 15th of June')
+})
+test('downloads should not be wrongly attributed to unknown due to url encoded paths', () => {
+  const rows = downloadsByGame('2026-06-01', '2026-07-31')
+  const unknown = rows.find(row => row.game === 'unknown')
+  assert.equal(unknown, undefined, 'no downloads should end up to unknown')
 })
