@@ -1,0 +1,326 @@
+[
+  {
+    "id": 900001,
+    "gameId": 1,
+    "platform": "windows",
+    "name": "Asphalt_9_windows_v1.zip",
+    "version": "9.6.6",
+    "uploadedAt": "2026-06-21T16:23:31.517Z",
+    "sizeBytes": 2284464550
+  },
+  {
+    "id": 900002,
+    "gameId": 1,
+    "platform": "android",
+    "name": "Asphalt_9_android_v2.zip",
+    "version": "1.2.2",
+    "uploadedAt": "2026-06-30T21:51:49.228Z",
+    "sizeBytes": 3041612817
+  },
+  {
+    "id": 900003,
+    "gameId": 1,
+    "platform": "windows",
+    "name": "Asphalt_9_windows_v3.zip",
+    "version": "4.2.0",
+    "uploadedAt": "2026-06-27T23:36:36.890Z",
+    "sizeBytes": 3599296285
+  },
+  {
+    "id": 900004,
+    "gameId": 1,
+    "platform": "steam",
+    "name": "Asphalt_9_steam_v4.zip",
+    "version": "5.2.7",
+    "uploadedAt": "2026-06-02T08:45:07.367Z",
+    "sizeBytes": 3264407946
+  },
+  {
+    "id": 900005,
+    "gameId": 1,
+    "platform": "steam",
+    "name": "Asphalt_9_steam_v5.zip",
+    "version": "8.1.3",
+    "uploadedAt": "2026-06-20T11:40:52.966Z",
+    "sizeBytes": 423926067
+  },
+  {
+    "id": 900006,
+    "gameId": 2,
+    "platform": "windows",
+    "name": "Dragon_Mania_Legends_windows_v1.zip",
+    "version": "7.2.4",
+    "uploadedAt": "2026-06-01T01:59:06.949Z",
+    "sizeBytes": 2509144127
+  },
+  {
+    "id": 900007,
+    "gameId": 2,
+    "platform": "windows",
+    "name": "Dragon_Mania_Legends_windows_v2.zip",
+    "version": "6.6.7",
+    "uploadedAt": "2026-06-25T09:12:11.690Z",
+    "sizeBytes": 1119975281
+  },
+  {
+    "id": 900008,
+    "gameId": 2,
+    "platform": "steam",
+    "name": "Dragon_Mania_Legends_steam_v3.zip",
+    "version": "4.8.1",
+    "uploadedAt": "2026-06-26T09:26:57.561Z",
+    "sizeBytes": 1359632683
+  },
+  {
+    "id": 900009,
+    "gameId": 2,
+    "platform": "android",
+    "name": "Dragon_Mania_Legends_android_v4.zip",
+    "version": "5.0.1",
+    "uploadedAt": "2026-06-29T02:42:01.624Z",
+    "sizeBytes": 1163648796
+  },
+  {
+    "id": 900010,
+    "gameId": 3,
+    "platform": "windows",
+    "name": "Disney_Magic_Kingdoms_QA__windows_v1.zip",
+    "version": "7.5.7",
+    "uploadedAt": "2026-06-19T05:41:18.715Z",
+    "sizeBytes": 2680047703
+  },
+  {
+    "id": 900011,
+    "gameId": 3,
+    "platform": "android",
+    "name": "Disney_Magic_Kingdoms_QA__android_v2.zip",
+    "version": "3.0.8",
+    "uploadedAt": "2026-06-30T06:45:22.269Z",
+    "sizeBytes": 1156617355
+  },
+  {
+    "id": 900012,
+    "gameId": 3,
+    "platform": "steam",
+    "name": "Disney_Magic_Kingdoms_QA__steam_v3.zip",
+    "version": "2.3.0",
+    "uploadedAt": "2026-06-01T18:40:51.854Z",
+    "sizeBytes": 787778792
+  },
+  {
+    "id": 900013,
+    "gameId": 3,
+    "platform": "ios",
+    "name": "Disney_Magic_Kingdoms_QA__ios_v4.zip",
+    "version": "5.8.3",
+    "uploadedAt": "2026-06-12T09:23:33.776Z",
+    "sizeBytes": 1619734955
+  },
+  {
+    "id": 900014,
+    "gameId": 4,
+    "platform": "ios",
+    "name": "Minion_Rush_ios_v1.zip",
+    "version": "1.6.3",
+    "uploadedAt": "2026-06-25T21:20:25.416Z",
+    "sizeBytes": 883753967
+  },
+  {
+    "id": 900015,
+    "gameId": 4,
+    "platform": "windows",
+    "name": "Minion_Rush_windows_v2.zip",
+    "version": "5.6.5",
+    "uploadedAt": "2026-06-15T14:06:51.404Z",
+    "sizeBytes": 1870163632
+  },
+  {
+    "id": 900016,
+    "gameId": 4,
+    "platform": "android",
+    "name": "Minion_Rush_android_v3.zip",
+    "version": "1.2.4",
+    "uploadedAt": "2026-06-09T16:17:50.762Z",
+    "sizeBytes": 4151853277
+  },
+  {
+    "id": 900017,
+    "gameId": 4,
+    "platform": "steam",
+    "name": "Minion_Rush_steam_v4.zip",
+    "version": "6.0.8",
+    "uploadedAt": "2026-06-18T13:08:18.553Z",
+    "sizeBytes": 2581415845
+  },
+  {
+    "id": 900018,
+    "gameId": 4,
+    "platform": "android",
+    "name": "Minion_Rush_android_v5.zip",
+    "version": "1.7.6",
+    "uploadedAt": "2026-06-14T22:54:32.195Z",
+    "sizeBytes": 3321423722
+  },
+  {
+    "id": 900019,
+    "gameId": 4,
+    "platform": "windows",
+    "name": "Minion_Rush_windows_v6.zip",
+    "version": "8.3.1",
+    "uploadedAt": "2026-06-14T17:06:49.236Z",
+    "sizeBytes": 470698070
+  },
+  {
+    "id": 900020,
+    "gameId": 5,
+    "platform": "ios",
+    "name": "March_of_Empires_ios_v1.zip",
+    "version": "7.4.0",
+    "uploadedAt": "2026-06-03T17:23:46.720Z",
+    "sizeBytes": 2353795958
+  },
+  {
+    "id": 900021,
+    "gameId": 5,
+    "platform": "ios",
+    "name": "March_of_Empires_ios_v2.zip",
+    "version": "9.0.8",
+    "uploadedAt": "2026-06-29T01:35:22.669Z",
+    "sizeBytes": 2638934327
+  },
+  {
+    "id": 900022,
+    "gameId": 5,
+    "platform": "windows",
+    "name": "March_of_Empires_windows_v3.zip",
+    "version": "5.4.4",
+    "uploadedAt": "2026-06-07T22:51:52.097Z",
+    "sizeBytes": 1077761960
+  },
+  {
+    "id": 900023,
+    "gameId": 5,
+    "platform": "android",
+    "name": "March_of_Empires_android_v4.zip",
+    "version": "3.8.5",
+    "uploadedAt": "2026-06-07T22:27:21.302Z",
+    "sizeBytes": 3008094145
+  },
+  {
+    "id": 900024,
+    "gameId": 5,
+    "platform": "ios",
+    "name": "March_of_Empires_ios_v5.zip",
+    "version": "7.7.2",
+    "uploadedAt": "2026-06-02T22:11:12.411Z",
+    "sizeBytes": 2384749246
+  },
+  {
+    "id": 900025,
+    "gameId": 5,
+    "platform": "steam",
+    "name": "March_of_Empires_steam_v6.zip",
+    "version": "6.2.6",
+    "uploadedAt": "2026-06-29T04:20:00.786Z",
+    "sizeBytes": 880365085
+  },
+  {
+    "id": 900026,
+    "gameId": 5,
+    "platform": "android",
+    "name": "March_of_Empires_android_v7.zip",
+    "version": "3.1.4",
+    "uploadedAt": "2026-06-08T05:41:52.683Z",
+    "sizeBytes": 3278323484
+  },
+  {
+    "id": 900027,
+    "gameId": 6,
+    "platform": "android",
+    "name": "Stronghold_android_v1.zip",
+    "version": "2.3.0",
+    "uploadedAt": "2026-06-25T13:01:32.504Z",
+    "sizeBytes": 237231445
+  },
+  {
+    "id": 900028,
+    "gameId": 6,
+    "platform": "steam",
+    "name": "Stronghold_steam_v2.zip",
+    "version": "1.6.1",
+    "uploadedAt": "2026-06-24T08:42:50.295Z",
+    "sizeBytes": 1472669792
+  },
+  {
+    "id": 900029,
+    "gameId": 6,
+    "platform": "ios",
+    "name": "Stronghold_ios_v3.zip",
+    "version": "5.3.6",
+    "uploadedAt": "2026-06-22T15:12:34.473Z",
+    "sizeBytes": 2884191705
+  },
+  {
+    "id": 900030,
+    "gameId": 6,
+    "platform": "ios",
+    "name": "Stronghold_ios_v4.zip",
+    "version": "3.5.7",
+    "uploadedAt": "2026-06-28T10:39:27.596Z",
+    "sizeBytes": 1769163323
+  },
+  {
+    "id": 900031,
+    "gameId": 7,
+    "platform": "android",
+    "name": "My_Little_Pony_AA__android_v1.zip",
+    "version": "9.5.5",
+    "uploadedAt": "2026-06-27T21:58:20.657Z",
+    "sizeBytes": 3494271470
+  },
+  {
+    "id": 900032,
+    "gameId": 7,
+    "platform": "steam",
+    "name": "My_Little_Pony_AA__steam_v2.zip",
+    "version": "8.0.3",
+    "uploadedAt": "2026-06-13T00:11:38.257Z",
+    "sizeBytes": 346626949
+  },
+  {
+    "id": 900033,
+    "gameId": 7,
+    "platform": "ios",
+    "name": "My_Little_Pony_AA__ios_v3.zip",
+    "version": "7.5.7",
+    "uploadedAt": "2026-06-21T05:47:58.075Z",
+    "sizeBytes": 2857591821
+  },
+  {
+    "id": 900034,
+    "gameId": 8,
+    "platform": "steam",
+    "name": "QA_Test_Game_steam_v1.zip",
+    "version": "6.2.1",
+    "uploadedAt": "2026-06-06T00:52:34.458Z",
+    "sizeBytes": 273216199
+  },
+  {
+    "id": 900035,
+    "gameId": 8,
+    "platform": "android",
+    "name": "QA_Test_Game_android_v2.zip",
+    "version": "7.0.1",
+    "uploadedAt": "2026-06-21T14:26:26.464Z",
+    "sizeBytes": 720823478
+  },
+  {
+    "id": 900036,
+    "gameId": 8,
+    "platform": "android",
+    "name": "QA_Test_Game_android_v3.zip",
+    "version": "1.1.7",
+    "uploadedAt": "2026-06-23T10:07:22.997Z",
+    "sizeBytes": 1597607803
+  }
+]

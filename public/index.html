@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>BuildHub - downloads per game</title>
+  <style>
+    body { font: 15px/1.5 system-ui, sans-serif; margin: 2rem auto; max-width: 720px; color: #1c1b19; }
+    h1 { font-size: 1.4rem; }
+    table { border-collapse: collapse; width: 100%; margin-top: 1rem; }
+    th, td { text-align: left; padding: .5rem .6rem; border-bottom: 1px solid #e5e1da; }
+    td.n, th.n { text-align: right; font-variant-numeric: tabular-nums; }
+    .meta { color: #6b6862; font-size: .9rem; }
+  </style>
+</head>
+<body>
+  <h1>Downloads per game</h1>
+  <p class="meta" id="meta">loading...</p>
+  <table>
+    <thead><tr><th>Game</th><th class="n">Downloads</th></tr></thead>
+    <tbody id="rows"></tbody>
+  </table>
+
+  <script>
+    fetch('/api/stats/downloads?from=2026-06-01&to=2026-07-31')
+      .then((response) => response.json())
+      .then((data) => {
+        document.getElementById('meta').textContent =
+          `${data.from} to ${data.to} - ${data.total} downloads (query took ${data.tookMs} ms)`;
+        document.getElementById('rows').innerHTML = data.rows
+          .map((row) => `<tr><td>${row.game}</td><td class="n">${row.downloads}</td></tr>`)
+          .join('');
+      });
+  </script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+[
+  { "id": 1, "name": "Asphalt 9", "pathName": "Asphalt 9" },
+  { "id": 2, "name": "Dragon Mania Legends", "pathName": "Dragon Mania Legends" },
+  { "id": 3, "name": "Disney Magic Kingdoms (QA)", "pathName": "Disney Magic Kingdoms (QA)" },
+  { "id": 4, "name": "Minion Rush", "pathName": "Minion Rush" },
+  { "id": 5, "name": "March of Empires", "pathName": "March of Empires" },
+  { "id": 6, "name": "Stronghold", "pathName": "Stronghold" },
+  { "id": 7, "name": "My Little Pony (AA)", "pathName": "My Little Pony (AA)" },
+  { "id": 8, "name": "QA Test Game", "pathName": "QA Test Game" }
+]
