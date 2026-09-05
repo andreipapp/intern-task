@@ -18,3 +18,7 @@ test('invalid events should be refused with a 400', () => {
   const payload = { type: 'downlaod', buildId: 900001, createdAt: '2026-06-15T10:00:00Z' }
   assert.equal(isValidEvent(payload), false, 'an invalid event should be refused')
 })
+test('date range should be inclusive not exclusive', () => {
+  const rows = eventsInRange('2026-06-15', '2026-06-15', ['download'])
+  assert.ok(rows.length > 0, 'expected some downloads on the 15th of June')
+})
