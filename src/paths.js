@@ -4,7 +4,7 @@
 // the database.
 export function canonicalPath(raw) {
   if (raw == null) {
-    return '';
+    return ''
   }
-  return String(raw).trim();
+  return decodeURI(String(raw).trim())
 }
