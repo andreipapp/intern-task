@@ -50,3 +50,20 @@ export function mergeDownloadSources(fromEvents, fromLegacy) {
   }
   return Object.values(merged)
 }
+export function downloadsByDay(from, to) {
+  const byDay = {}
+  const events = eventsInRange(from, to, ['download'])
+  for (const event of events) {
+    const day = event.createdAt.split('T')[0]
+    byDay[day] ? byDay[day]++ : (byDay[day] = 1)
+  }
+  const result = []
+  const pointer = new Date(from)
+  const end = new Date(to)
+  while (pointer <= end) {
+    const day = pointer.toISOString().split('T')[0]
+    result.push({ day, downloads: byDay[day] || 0 })
+    pointer.setDate(pointer.getDate() + 1)
+  }
+  return result
+}
